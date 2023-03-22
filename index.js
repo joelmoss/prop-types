@@ -7,9 +7,9 @@
 
 let factory;
 if (process.env.NODE_ENV === "production") {
-  factory = await import("./factoryWithThrowingShims");
+  factory = await import("./factoryWithThrowingShims.js");
 } else {
-  factory = await import("./factoryWithTypeCheckers");
+  factory = await import("./factoryWithTypeCheckers.js");
 }
 
 export default factory.default();

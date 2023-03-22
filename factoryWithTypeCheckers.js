@@ -9,8 +9,8 @@
 
 import ReactIs from "react-is";
 
-import ReactPropTypesSecret from "./lib/ReactPropTypesSecret";
-import checkPropTypes from "./checkPropTypes";
+import ReactPropTypesSecret from "./lib/ReactPropTypesSecret.js";
+import checkPropTypes from "./checkPropTypes.js";
 
 const isValidElement = ReactIs.isElement;
 const has = Function.call.bind(Object.prototype.hasOwnProperty);

@@ -7,7 +7,7 @@
 
 "use strict";
 
-import ReactPropTypesSecret from "./lib/ReactPropTypesSecret";
+import ReactPropTypesSecret from "./lib/ReactPropTypesSecret.js";
 
 function emptyFunction() {}
 function emptyFunctionWithReset() {}

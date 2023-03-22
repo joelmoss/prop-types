@@ -10,7 +10,7 @@
 var printWarning = function () {};
 
 if (process.env.NODE_ENV !== "production") {
-  var ReactPropTypesSecret = import("./lib/ReactPropTypesSecret");
+  var ReactPropTypesSecret = import("./lib/ReactPropTypesSecret.js");
   var loggedTypeFailures = {};
   var has = Function.call.bind(Object.prototype.hasOwnProperty);
 
