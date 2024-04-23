@@ -10,6 +10,7 @@
     "checkPropTypes.js",
     "factoryWithThrowingShims.js",
     "factoryWithTypeCheckers.js",
+    "lib/ReactPropTypesSecret.js",
     "index.js"
   ],
   "dependencies": {

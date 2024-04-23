@@ -1,13 +1,16 @@
-lockfileVersion: 5.4
+lockfileVersion: '6.0'
 
-specifiers:
-  react-is: ^18.2.0
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
-  react-is: 18.2.0
+  react-is:
+    specifier: ^18.2.0
+    version: 18.2.0
 
 packages:
 
-  /react-is/18.2.0:
+  /react-is@18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
     dev: false
